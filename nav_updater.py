@@ -1,5 +1,5 @@
 #https://www.amfiindia.com/spages/NAVAll.txt
-import code_parser as cp
+#import code_parser as cp
 import requests
 import pymongo
 

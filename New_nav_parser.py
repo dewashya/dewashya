@@ -6,7 +6,6 @@ from datetime import datetime
 import pymongo  # Import the pymongo library for MongoDB operations
 
 #im trying to post it on git
-####
 
 # Initialize MongoDB client and database
 mongo_client = pymongo.MongoClient("mongodb://localhost:27017/")  # Replace with your MongoDB connection string
@@ -131,6 +130,7 @@ def nav_data(start,end):
             # date_existing = mycollection.find_one({"data.date": date})
             # print(date_existing)
             if existing_data:
+                    #now i should do insert many
                 # the below part is not working gpt
                 # if date_existing:
                 #     print("Its there")
